@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	min-height: 100%;
+}
+
+.header{
+	height: 200px;
+	background-color: #CCC;
+	display: flex;
+  	justify-content: center;
+	align-items: center;
+	
+}
+
+.prefooter{
+	height: 100px;
+	
+}
+
+.footer{
+	height: 100px;
+	width: 1200px;
+	background-color: #CCC;
+	margin: -100px auto 0;
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+}
